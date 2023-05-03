@@ -11,7 +11,7 @@ if st.sidebar.button(':red[Click here to show  actual digit sign language]'):
     st.sidebar.image(r"desc.png", use_column_width = True)       
 
     #loading already trained model
-model = load_model('https://github.com/OmololaOkebiorun/Sign_language_classification/blob/main/digit_sign_language_class.h5')
+model = load_model('digit_sign_language_class.h5')
 
 #header and subheader to describe app
 st.header(":red[Sign Language (Digits) Classification]")
