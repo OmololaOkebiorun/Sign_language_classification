@@ -2,6 +2,7 @@ keras==2.12.0
 matplotlib==3.6.3
 numpy==1.23.5
 opencv-python==4.7.0.72 
+opencv-python-headless==3.4.18.65
 pandas==1.5.3
 Pillow==9.4.0
 scikit-learn==1.2.1
